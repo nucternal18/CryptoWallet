@@ -30,7 +30,7 @@ const marketReducer = (state = initialState, action) => {
     case GET_COIN_MARKET_SUCCESS:
       return {
         ...state,
-        coins: action.payload.coins,
+        coins: action.payload.coin,
       };
     case GET_HOLDINGS_FAILURE:
     case GET_COIN_MARKET_FAILURE:
